@@ -1,0 +1,91 @@
+{
+  "conditionalSections": {
+    "executiveSummary": {
+      "id": "executive-summary",
+      "name": "Executive Summary",
+      "visible": true,
+      "children": null
+    },
+    "networkThroughput": {
+      "id": "network-throughput",
+      "name": "Network Throughput",
+      "visible": true,
+      "children": null
+    },
+    "assets": {
+      "id": "assets",
+      "name": "Assets",
+      "visible": true,
+      "children": {
+        "summary": {
+          "id": "assets-summary",
+          "name": "Summary",
+          "visible": true,
+          "children": null
+        },
+        "osTypes": {
+          "id": "assets-os-types",
+          "name": "OS Composition of IT Assets",
+          "visible": true,
+          "children": null
+        },
+        "iotTypes": {
+          "id": "assets-iot-types",
+          "name": "IoT/OT Assets Composition",
+          "visible": true,
+          "children": null
+        },
+        "ouiTypes": {
+          "id": "assets-oui-types",
+          "name": "Manufacturers of All Assets",
+          "visible": true,
+          "children": null
+        }
+      }
+    },
+    "network": {
+      "id": "network",
+      "name": "Network Insights",
+      "visible": true,
+      "children": {
+        "assetCount": {
+          "id": "network-asset-count",
+          "name": "VLAN Asset Count",
+          "visible": true,
+          "children": null
+        },
+        "trafficVolume": {
+          "id": "network-traffic-volume",
+          "name": "VLAN Traffic Volume",
+          "visible": true,
+          "children": null
+        },
+        "interVlanCommunications": {
+          "id": "network-inter-vlan-coms",
+          "name": "Inter-VLAN Communications",
+          "visible": true,
+          "children": null
+        }
+      }
+    },
+    "datause": {
+      "id": "datause",
+      "name": "Data Usage",
+      "visible": true,
+      "children": {
+        "heavyHitter": {
+          "id": "datause-heavyhitter",
+          "name": "Heavy-hitting Subset of Assets",
+          "visible": true,
+          "children": null
+        }
+      }
+    },
+    "cyberRisks": {
+      "id": "cyber-risks",
+      "name": "Cyber Risks",
+      "visible": true,
+      "children": null
+    }
+  }
+}
